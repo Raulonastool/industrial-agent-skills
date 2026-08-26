@@ -1,0 +1,18 @@
+{
+  "name": "industrial-agent-skills",
+  "owner": {"name": "raulonastool"},
+  "description": "Industrial automation skills for AI coding agents.",
+  "plugins": [
+    {
+      "name": "industrial-agent-skills",
+      "source": {"source": "github", "repo": "raulonastool/industrial-agent-skills"},
+      "description": "Field-informed skills for PLCs, industrial edge applications, container deployment, and Industry 4.0 software.",
+      "author": {"name": "raulonastool"},
+      "homepage": "https://github.com/raulonastool/industrial-agent-skills",
+      "repository": "https://github.com/raulonastool/industrial-agent-skills",
+      "license": "Apache-2.0",
+      "keywords": ["industrial-automation", "plc", "edge-computing", "industry-4.0"],
+      "category": "development"
+    }
+  ]
+}
