@@ -27,7 +27,17 @@ Vendor-specific knowledge is kept in optional references so the core workflow st
 Current references:
 
 - PLCnext REST
-- Phoenix Contact VL3/vPLC edge networking
+- Phoenix Contact VL3/vPLC edge computing
+
+## Public-source and confidentiality policy
+
+This is an independent open-source project. Vendor-specific references are intended to contain only information available from public vendor documentation plus generic engineering practices.
+
+This repository must not contain customer-confidential information, real customer/site network details, credentials, proprietary project files, private process data, internal-only vendor documentation, or unreleased product information.
+
+If a vendor-specific detail cannot be supported by a public source, it should be generalized or omitted until a public source can be identified. See `CONTRIBUTING.md` for the full contribution policy.
+
+References to Phoenix Contact, PLCnext Technology, VL3, or other vendor products are descriptive and do not imply sponsorship, endorsement, or official vendor support.
 
 ## Structure
 
@@ -61,7 +71,7 @@ Coding agents are strong at Python, JavaScript, containers, APIs, and web applic
 - troubleshooting should begin with process/config/network checks before rewriting code
 - a demo or production deployment needs a rollback path
 
-These are often learned through deployment experience rather than ordinary software documentation.
+The project turns those general lessons into reusable agent workflows without publishing customer-specific implementations.
 
 ## Claude Code
 
@@ -93,7 +103,7 @@ The portable skill bundle lives at:
 skills/edge-plc-app-deployment/
 ```
 
-The core uses the open `SKILL.md` Agent Skills format. Product-specific install wrappers should stay separate from the skill itself.
+The core uses the open `SKILL.md` Agent Skills format. Product-specific install wrappers stay separate from the skill itself.
 
 ## Safety and scope
 
@@ -103,9 +113,9 @@ A successful software test does not make a control-system change safe for produc
 
 ## Contributing
 
-Contributions are welcome, especially vendor references, troubleshooting workflows, protocol integrations, safe simulation/test tooling, and anonymized lessons learned from real projects.
+Contributions are welcome, especially vendor references, troubleshooting workflows, protocol integrations, safe simulation/test tooling, and generalized lessons learned from real projects.
 
-Do not commit customer secrets, credentials, confidential code/drawings, or identifying site information.
+Read `CONTRIBUTING.md` before submitting vendor- or customer-derived material.
 
 ## Planned skills
 
