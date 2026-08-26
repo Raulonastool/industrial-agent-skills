@@ -5,13 +5,22 @@
   "plugins": [
     {
       "name": "industrial-agent-skills",
-      "source": {"source": "github", "repo": "raulonastool/industrial-agent-skills"},
+      "source": "./",
       "description": "Field-informed skills for PLCs, industrial edge applications, container deployment, and Industry 4.0 software.",
       "author": {"name": "raulonastool"},
       "homepage": "https://github.com/raulonastool/industrial-agent-skills",
       "repository": "https://github.com/raulonastool/industrial-agent-skills",
       "license": "Apache-2.0",
-      "keywords": ["industrial-automation", "plc", "edge-computing", "industry-4.0"],
+      "keywords": [
+        "industrial-automation",
+        "plc",
+        "agent-skills",
+        "ai-agents",
+        "edge-computing",
+        "industry-4.0",
+        "plcnext"
+      ],
+      "tags": ["industrial", "automation", "plc", "edge", "ot"],
       "category": "development"
     }
   ]
