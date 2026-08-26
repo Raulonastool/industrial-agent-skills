@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "industrial-agent-skills",
+  "displayName": "Industrial Agent Skills",
+  "version": "0.1.0",
+  "description": "Field-informed industrial automation skills for AI coding agents working with PLCs, edge applications, containers, industrial data, and Industry 4.0 systems.",
+  "author": {
+    "name": "raulonastool",
+    "url": "https://github.com/raulonastool"
+  },
+  "homepage": "https://github.com/raulonastool/industrial-agent-skills",
+  "repository": "https://github.com/raulonastool/industrial-agent-skills",
+  "license": "Apache-2.0",
+  "keywords": ["industrial-automation", "plc", "industry-4.0", "edge-computing", "podman", "docker", "plcnext"]
+}
